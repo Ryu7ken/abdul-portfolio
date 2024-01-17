@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+}
+
+#hm{
+    background-image: linear-gradient(to right top, #0a192f, #1f304e, #354a6e, #4c6591, #6481b5, #6b91c9, #71a2dd, #76b3f1, #68bbf7, #58c3fb, #46cbfe, #32d3ff);
+}
+
+#abt{
+    background-image: linear-gradient(to right bottom, #0a192f, #1f304e, #354a6e, #4c6591, #6481b5, #6b91c9, #71a2dd, #76b3f1, #68bbf7, #58c3fb, #46cbfe, #32d3ff);
+}
+
+#sk{
+    background-image: linear-gradient(to right top, #0a192f, #1f304e, #354a6e, #4c6591, #6481b5, #6b91c9, #71a2dd, #76b3f1, #68bbf7, #58c3fb, #46cbfe, #32d3ff);
+}
+
+#pro{
+    background-image: linear-gradient(to right bottom, #0a192f, #1f304e, #354a6e, #4c6591, #6481b5, #6b91c9, #71a2dd, #76b3f1, #68bbf7, #58c3fb, #46cbfe, #32d3ff);
+}
+
+#cont{
+    background-image: linear-gradient(to right top, #0a192f, #1f304e, #354a6e, #4c6591, #6481b5, #6b91c9, #71a2dd, #76b3f1, #68bbf7, #58c3fb, #46cbfe, #32d3ff);
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover{
+    background-image: linear-gradient(
+        to right,
+        rgba(112,157,255,0.8),
+        hsla(242, 74%, 61%, 0.8)
+    )!important;
+}
+
+/* #0A192F 
+#86A8E7
+#32D3FF */
