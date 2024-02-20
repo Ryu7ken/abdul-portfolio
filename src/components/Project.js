@@ -23,7 +23,7 @@ const Project = () => {
                         </span>
 
                         <div className="pt-8 text-center">
-                            <a href='https://foodilicious-orpin.vercel.app/'>
+                            <a href='https://foodilicious.vercel.app/'>
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-blue-900 text-white font-bold text-lg hover:bg-blue-700">
                                     Live</button>
                             </a>
