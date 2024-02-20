@@ -23,10 +23,10 @@ const About = () => {
                     </div>
 
                     <div className='text-black text-lg'>
-                        <p className='mb-5'>
-                            My areas of expertise lie in React, with a focus on creating responsive and efficient user interfaces. 
-                            I have practical experience in implementing UI components, managing state with Redux, utilizing Tailwind CSS for 
-                            streamlined styling, and conducting unit and integration testing with Jest.
+                        <p className='my-2'>
+                            I am skilled in various technologies such as WordPress, React, Tailwind CSS, and Redux, 
+                            demonstrating proficiency in front-end development. Additionally, I have a strong understanding of SEO 
+                            and possess effective communication skills.
                         </p>
                     </div>
                 </div>
