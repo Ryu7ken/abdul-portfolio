@@ -1,4 +1,5 @@
 import foodapp from "../assets/foodilicious.jpeg";
+import weatherapp from "../assets/celestaclima.jpeg";
 
 const Project = () => {
   return (
@@ -29,6 +30,31 @@ const Project = () => {
                             </a>
 
                             <a href='https://github.com/Ryu7ken/foodilicious'>
+                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-blue-900 text-white font-bold text-lg hover:bg-blue-700">
+                                    Code</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div style={{backgroundImage: `url(${weatherapp})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    <div className="opacity-0 group-hover:opacity-100">
+                        
+                        <span className="text-2xl font-bold text-white tracking-wider">
+                            Weather forecast app
+                        </span>
+
+                        <div className="pt-8 text-center">
+                            <a href='https://celestaclima.vercel.app/'>
+                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-blue-900 text-white font-bold text-lg hover:bg-blue-700">
+                                    Live</button>
+                            </a>
+
+                            <a href='https://github.com/Ryu7ken/celestaclima'>
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-blue-900 text-white font-bold text-lg hover:bg-blue-700">
                                     Code</button>
                             </a>
