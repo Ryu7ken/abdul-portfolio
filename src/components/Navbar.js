@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white shadow-lg shadow-black">
+        <div className="fixed z-10 w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white shadow-lg shadow-black">
 
             <div className="text-[#F6BE3B] font-semibold">
                 <h1 className="text-xl md:text-2xl lg:text-3xl">{"< Abdul />"}</h1>
